@@ -1,4 +1,3 @@
-# Machine-Learning-for-Computer-vision
 # Machine Learning for Computer Vision — Projets pratiques
 
 Projets réalisés dans le cadre du cours **Machine Learning for Computer Vision** (Coursera / MathWorks), couvrant la classification d'images et la détection d'objets avec MATLAB.
