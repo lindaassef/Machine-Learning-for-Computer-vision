@@ -1,5 +1,5 @@
 # Machine-Learning-for-Computer-vision
-# Détection de nœuds de bois par apprentissage automatique
+# Projet: Détection de nœuds de bois par apprentissage automatique
 
 Projet réalisé dans le cadre du cours **Computer Vision for Science and Engineering** (Coursera / MathWorks), visant à entraîner un détecteur d'objets capable de repérer automatiquement les nœuds sur des images de bois.
 
