@@ -26,31 +26,9 @@ Développer et évaluer un détecteur d'objets basé sur la méthode **ACF (Aggr
    - Ajustement du seuil de détection (`Threshold`) pour réduire le nombre de faux négatifs.
    - Suppression des détections redondantes (boîtes multiples sur un même nœud) avec `selectStrongestBbox`, en utilisant `RatioType = "Min"` pour bien gérer les boîtes imbriquées.
 
-## Résultats
-
-| Étape | Nœuds non détectés | Détections redondantes |
-|---|---|---|
-| Détection initiale (seuil par défaut) | X | Y |
-| Après ajustement du seuil | X' | Y' |
-| Après suppression des redondances (NMS) | — | 0 |
-
-*(Remplace X, Y, X', Y' par tes valeurs réelles.)*
-
-### Exemple de détection
-![Exemple de détection](images/example_detection.png)
-
-*Boîte verte : vérité terrain — Boîte jaune : détection du modèle, avec score de confiance.*
-
-### Avant / après suppression des doublons
-![Avant après NMS](images/before_after_nms.png)
-
 ## Compétences mobilisées
 
 - MATLAB & Computer Vision Toolbox
 - Détection d'objets (ACF)
 - Labellisation d'images (Image Labeler)
 - Évaluation de modèles : IoU, seuils de détection, Non-Maximum Suppression (NMS)
-
-## Remarque
-
-Le dataset d'images (nœuds de bois) provient du matériel pédagogique du cours et n'est pas inclus dans ce dépôt pour des raisons de droits d'usage. Seuls le code et les résultats sont partagés.
